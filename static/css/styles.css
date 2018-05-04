@@ -1,0 +1,36 @@
+/*This is a default CSS document*/
+*{
+    padding:0px;
+    margin:0px;
+
+    /* border:red dashed 1px; */
+}
+/*This is the start of the webpage*/
+.wrapper{
+    min-height:1000px;
+    min-width:1000px;
+    background-color:purple;
+    padding:10px;
+    color:white;
+}
+    /*Define the classes below*/
+    .buttons button{
+        height:25px;
+        width:100px;
+        margin:5px;
+        border:solid white 2px;
+        border-radius:5px;
+        background-color:lightblue;
+        color:black;
+    }
+    .wrapper h1{
+        margin-top:300px;
+        text-align:center;
+    }
+    .wrapper p{
+        text-align:center;
+        margin-bottom:10px;
+    }
+    .buttons{
+        padding-left:520px;
+    }
